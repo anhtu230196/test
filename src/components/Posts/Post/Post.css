@@ -1,0 +1,27 @@
+.post {
+  width: 100%;
+  background-color: lightgray;
+  padding: 20px;
+  border-bottom: 1px solid white;
+}
+.post:hover {
+  cursor: pointer;
+}
+.post h4 {
+  margin: 0;
+  padding-bottom: 5px;
+}
+.post div span {
+  padding: 0 5px;
+  /* border-right: 1px solid darkslategray; */
+}
+.post div span:first-child {
+  padding: 0;
+  /* border-right: 1px solid darkslategray; */
+}
+
+@media (max-width: 800px) {
+  .post {
+    padding: 8px;
+  }
+}
