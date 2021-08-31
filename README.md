@@ -7,12 +7,11 @@
 
 ### Công nghệ:
 
-- firebase: để lưu data và chức năng đăng nhập.
+- firebase: để triển khai chức năng đăng nhập.
 - ReactJs, Redux, Redux-thunk để render giao diện bên client.
 - Framework UI : Semantic UI React.
-- Momentjs.
 
-### Pagination:
+### Phân Trang:
 - Tìm vị trí lastOfIndex: currentPage * postPerPage
 - Tìm vị trí firstOfIndex: lastOfIndex - postPerPage
 - Số posts của currentPage: listPost.slice(firstOfIndex, lastOfIndex)
